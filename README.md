@@ -1,4 +1,4 @@
-#Micro-ROS Robot Interface (ESP32 + MPU9250 + Encoders)
+# Micro-ROS Robot Interface (ESP32 + MPU9250 + Encoders)
 
 This project provides a micro-ROS-enabled interface for a mobile robot built on the ESP32 platform, using:
 - **MPU9250** for IMU data
@@ -6,14 +6,14 @@ This project provides a micro-ROS-enabled interface for a mobile robot built on 
 - **Motor driver control**
 - **MICRO ROS** communication over serial transport
 
-##Hardware Used
+## Hardware Used
 - ESP32 Dev Board
 - MPU9250 IMU (I2C: SDA - 21, SCL - 22)
 - Two quadrature encoders (connected to GPIOs)
 - Motor driver (controlled via MotorControl class)
 - micro-ROS via serial transport
 
-##ROS 2 Topics
+## ROS 2 Topics
 ### Subscribed
 
 | Topic      | Type                     | Description            |
