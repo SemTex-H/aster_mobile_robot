@@ -9,8 +9,8 @@ This project provides a micro-ROS-enabled interface for a mobile robot built on 
 ## Hardware Used
 - ESP32 Dev Board
 - MPU9250 IMU (I2C: SDA - 21, SCL - 22)
-- Two quadrature encoders (connected to GPIOs)
-- Motor driver (controlled via MotorControl class)
+- Two quadrature encoders
+- Motor driver
 - micro-ROS via serial transport
 
 ## ROS 2 Topics
