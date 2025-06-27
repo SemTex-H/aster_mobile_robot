@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# aster_mobile_robot
-=======
 # Micro-ROS Robot Interface (ESP32 + MPU9250 + Encoders)
 
 This project provides a micro-ROS-enabled interface for a mobile robot built on the ESP32 platform, using:
@@ -30,4 +27,3 @@ This project provides a micro-ROS-enabled interface for a mobile robot built on 
 | `/imu/data`      | `sensor_msgs/Imu`      | IMU readings (gyro & accel) |
 | `/encoder_left`  | `std_msgs/Int32`       | Left encoder tick count     |
 | `/encoder_right` | `std_msgs/Int32`       | Right encoder tick count    |
->>>>>>> 7da442264fee48fa45bfa1111d0c55833c89b26e
